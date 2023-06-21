@@ -4,7 +4,8 @@
 
 .home {
 	margin: auto;
-	width: 80%;
+	max-width: 1200px;
+	width: 90%;
 	min-height: 100vh;
 	padding: 5px;
 }
@@ -55,6 +56,7 @@ header .header_right img {
 	margin: 10px;
 	border-top: 2px solid #31313b;
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
 
@@ -62,10 +64,15 @@ header .header_right img {
 	margin: 10px;
 	display: flex;
 	align-items: center;
+	gap: 3px;
 }
 
 .breadcrumb .folder {
 	color: #b5b4b8;
+	cursor: pointer;
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none;
 }
 
 .breadcrumb .arrow {
@@ -73,40 +80,66 @@ header .header_right img {
 }
 .main_header-right {
 	margin: 10px;
+	display: flex;
 }
+
 .main_folder {
 	background-color: #26262e;
 	padding: 8px;
-	border-radius: 8px;
+	border-radius: 4px;
 	margin-right: 10px;
 	display: flex;
 	align-items: center;
 	gap: 8px;
+	outline: none;
+}
+.main button {
+	background-color: #26262e;
+	padding: 7px;
+	border: 1px solid #b5b4b8;
+	cursor: pointer;
+}
+
+.main .main_header button:hover {
+	background-color: #141419;
 }
 
 .main_body {
+	min-height: 70vh;
 	display: flex;
 	flex-wrap: wrap;
+	align-items: flex-start;
 }
+
+.main_body .no_image {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .folder_card {
 	background-color: #25262e;
 	padding: 1.66%;
-	width: 27%;
-	min-width: 230px;
 	margin: 1.5%;
+	width: 27%;
 	border-radius: 8px;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
 	position: relative;
-	/* margin: 0.5555%; */
+	gap: 5px;
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none;
 }
+
 .folder_card .moreOptions {
 	all: unset;
 	position: absolute;
 	right: 4px;
 	cursor: pointer;
 }
+
 .folder_card .popover-more {
 	padding: 6px 4px;
 	background-color: #070709;
@@ -127,16 +160,15 @@ header .header_right img {
 	right: -8px;
 	transform: rotate(90deg);
 }
-.opover-tri svg {
-}
+/* .opover-tri svg {
+} */
 .folder_card .popover-more .btn {
 	border-radius: 4px;
 	padding: 2px;
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: flex-start;
 	font-size: 16px;
-	flex-direction: row-reverse;
 	color: #c7c8cd;
 	gap: 4px;
 }
@@ -147,13 +179,25 @@ header .header_right img {
 .delete {
 	color: #ef7b73 !important;
 }
-.folderName {
+.folder_card .folderName {
 	color: #c7c8cd;
-	font-weight: 500;
-	font-size: 20px;
+	font-weight: 300;
+	font-size: 22px;
 	margin: 0;
 }
+.folder_card .description {
+	margin: 0;
+	color: #7a797c;
+	font-weight: 900;
+	font-size: 14px;
+}
 
+.folder_card .datetime {
+	margin: 0;
+	color: #4c4b4f;
+	font-weight: 900;
+	font-size: 14px;
+}
 /* toogle css */
 .switch {
 	position: relative;
@@ -215,4 +259,23 @@ input:checked + .slider:before {
 
 .slider.round:before {
 	border-radius: 50%;
+}
+
+/* Responsive */
+@media screen and (max-width: 1066px) {
+	.folder_card {
+		padding: 2.5%;
+		width: 41%;
+		/* min-width: ; */
+		margin: 2%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.folder_card {
+		padding: 3%;
+		width: 89%;
+		/* min-width: ; */
+		margin: 2.5%;
+	}
 }

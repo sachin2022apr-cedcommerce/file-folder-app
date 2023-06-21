@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px"
+  height="60px" viewBox="0 0 60 60" version="1.1">
+  <defs>
+    <filter id="alpha" filterUnits="objectBoundingBox" x="0%" y="0%" width="100%" height="100%">
+      <feColorMatrix type="matrix" in="SourceGraphic"
+        values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+    <mask id="mask0">
+      <g filter="url(#alpha)">
+        <rect x="0" y="0" width="60" height="60"
+          style="fill:rgb(0%,0%,0%);fill-opacity:0.25098;stroke:none;" />
+      </g>
+    </mask>
+    <clipPath id="clip1">
+      <rect x="0" y="0" width="60" height="60" />
+    </clipPath>
+    <g id="surface5" clip-path="url(#clip1)">
+      <path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:1;"
+        d="M 3.75 56.25 L 56.25 56.25 L 56.25 57.1875 L 3.75 57.1875 Z M 3.75 56.25 " />
+    </g>
+    <mask id="mask1">
+      <g filter="url(#alpha)">
+        <rect x="0" y="0" width="60" height="60"
+          style="fill:rgb(0%,0%,0%);fill-opacity:0.501961;stroke:none;" />
+      </g>
+    </mask>
+    <clipPath id="clip2">
+      <rect x="0" y="0" width="60" height="60" />
+    </clipPath>
+    <g id="surface8" clip-path="url(#clip2)">
+      <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;"
+        d="M 3.75 10.3125 L 43.125 10.3125 L 43.125 11.25 L 3.75 11.25 Z M 3.75 10.3125 " />
+    </g>
+    <mask id="mask2">
+      <g filter="url(#alpha)">
+        <rect x="0" y="0" width="60" height="60"
+          style="fill:rgb(0%,0%,0%);fill-opacity:0.501961;stroke:none;" />
+      </g>
+    </mask>
+    <clipPath id="clip3">
+      <rect x="0" y="0" width="60" height="60" />
+    </clipPath>
+    <g id="surface11" clip-path="url(#clip3)">
+      <path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;"
+        d="M 56.25 23.4375 L 43.125 10.3125 L 43.125 23.4375 Z M 56.25 23.4375 " />
+    </g>
+    <mask id="mask3">
+      <g filter="url(#alpha)">
+        <rect x="0" y="0" width="60" height="60"
+          style="fill:rgb(0%,0%,0%);fill-opacity:0.2;stroke:none;" />
+      </g>
+    </mask>
+    <linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="220" y1="767.36" x2="234"
+      y2="781.36" gradientTransform="matrix(0.9375,0,0,0.9375,-163.125,-695.9625)">
+      <stop offset="0" style="stop-color:rgb(2.352941%,2.352941%,2.352941%);stop-opacity:1;" />
+      <stop offset="1" style="stop-color:rgb(0%,0%,0%);stop-opacity:0;" />
+    </linearGradient>
+    <clipPath id="clip4">
+      <rect x="0" y="0" width="60" height="60" />
+    </clipPath>
+    <g id="surface14" clip-path="url(#clip4)">
+      <path style=" stroke:none;fill-rule:evenodd;fill:url(#linear0);"
+        d="M 43.125 23.4375 L 56.25 36.5625 L 56.25 23.4375 Z M 43.125 23.4375 " />
+    </g>
+    <mask id="mask4">
+      <g filter="url(#alpha)">
+        <rect x="0" y="0" width="60" height="60"
+          style="fill:rgb(0%,0%,0%);fill-opacity:0.74902;stroke:none;" />
+      </g>
+    </mask>
+    <clipPath id="clip5">
+      <rect x="0" y="0" width="60" height="60" />
+    </clipPath>
+    <g id="surface17" clip-path="url(#clip5)">
+      <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;"
+        d="M 19.734375 20.015625 L 19.734375 21.730469 L 20.671875 21.730469 L 20.671875 20.015625 Z M 17.117188 21.097656 L 16.453125 21.761719 L 17.664062 22.972656 L 18.328125 22.3125 Z M 23.289062 21.097656 L 22.078125 22.3125 L 22.742188 22.972656 L 23.953125 21.761719 Z M 20.15625 22.503906 C 18.859375 22.503906 17.8125 23.554688 17.8125 24.847656 C 17.8125 26.144531 18.859375 27.191406 20.15625 27.191406 C 21.449219 27.191406 22.5 26.144531 22.5 24.847656 C 22.5 23.554688 21.449219 22.503906 20.15625 22.503906 M 20.15625 23.441406 C 20.929688 23.441406 21.5625 24.074219 21.5625 24.847656 C 21.5625 25.625 20.929688 26.253906 20.15625 26.253906 C 19.378906 26.253906 18.75 25.625 18.75 24.847656 C 18.75 24.074219 19.378906 23.441406 20.15625 23.441406 M 15.371094 24.378906 L 15.371094 25.316406 L 17.082031 25.316406 L 17.082031 24.378906 Z M 23.324219 24.378906 L 23.324219 25.316406 L 25.035156 25.316406 L 25.035156 24.378906 Z M 36.5625 29.066406 L 34.6875 30.941406 L 34.679688 30.941406 L 26.625 38.988281 L 26.625 39.003906 L 22.3125 34.691406 L 13.875 43.128906 L 15.191406 43.128906 L 20.929688 37.429688 L 22.25 36.113281 L 23.714844 37.441406 L 26.625 40.316406 L 30.375 36.566406 L 33.140625 33.816406 L 36.558594 30.570312 L 39.96875 33.863281 L 47.429688 41.253906 L 48.746094 41.253906 Z M 17.660156 26.722656 L 16.449219 27.9375 L 17.109375 28.597656 L 18.324219 27.386719 Z M 22.734375 26.722656 L 22.074219 27.386719 L 23.285156 28.597656 L 23.949219 27.9375 Z M 19.730469 27.96875 L 19.730469 29.683594 L 20.667969 29.683594 L 20.667969 27.96875 Z M 19.730469 27.96875 " />
+    </g>
+    <linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="0" y1="392.36" x2="0"
+      y2="320.48" gradientTransform="matrix(0.9375,0,0,0.793003,-31.875,-255.684375)">
+      <stop offset="0" style="stop-color:rgb(100%,100%,100%);stop-opacity:0;" />
+      <stop offset="1" style="stop-color:rgb(100%,100%,100%);stop-opacity:0.2;" />
+    </linearGradient>
+  </defs>
+  <g id="surface1">
+    <path
+      style=" stroke:none;fill-rule:nonzero;fill:rgb(52.156863%,25.882353%,76.078431%);fill-opacity:1;"
+      d="M 3.75 57.1875 L 3.75 10.3125 L 43.125 10.3125 L 56.25 23.4375 L 56.25 57.1875 Z M 3.75 57.1875 " />
+    <use xlink:href="#surface8" mask="url(#mask1)" />
+    <use xlink:href="#surface11" mask="url(#mask2)" />
+    <use xlink:href="#surface14" mask="url(#mask3)" />
+    <use xlink:href="#surface17" mask="url(#mask4)" />
+    <path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);"
+      d="M 3.75 57.1875 L 3.75 10.3125 L 43.125 10.3125 L 56.25 23.4375 L 56.25 57.1875 Z M 3.75 57.1875 " />
+  </g>
+</svg>
